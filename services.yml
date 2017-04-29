@@ -1,22 +1,9 @@
 -
-  srvtype: Google+
-  link: https://plus.google.com/u/2/106669966380206498641
+  srvtype: AOSC OS Packages
+  link: https://packages.aosc.io
   description:
     - >
-      Learn about newest news and happenings in and around AOSC.
--
-  srvtype: Public Clipboard
-  link: https://pastebin.aosc.io
-  description:
-    - >
-      Our public clipboard service (or pastebin) that you can use for all your
-      clippy needs.
--
-  srvtype: Hermes WebMail
-  link: https://hermes.aosc.io
-  description:
-    - >
-      Our WebMail service for AOSC developers and contributors.
+      A catalog of packages available for AOSC OS.
 -
   srvtype: Community Repository
   link: https://repo.aosc.io
@@ -25,14 +12,39 @@
       Our community repository server, where AOSC OS installation medias,
       tarballs, packages, project documentation, etc. are stored.
 -
+  srvtype: Mirror Status
+  link: /mirror-status
+  description:
+    - >
+      Take a look at current mirror synchronization and availability information.
+-
+  srvtype: Mailing Lists
+  link: https://lists.aosc.io
+  description:
+    - >
+      Community mailing lists for discussions, advisories, and announcements.
+-
   srvtype: IRC Channel
   link: https://webchat.freenode.net/?channels=%23aosc
   description:
     - >
       Get in touch with the community.
 -
-  srvtype: Mirror Status
-  link: /mirror-status
+  srvtype: Google+
+  link: https://plus.google.com/u/2/106669966380206498641
   description:
     - >
-      Take a look at current mirror synchronization and availability information.
+      Learn about newest news and happenings in and around AOSC.
+-
+  srvtype: Hermes WebMail
+  link: https://hermes.aosc.io
+  description:
+    - >
+      Our WebMail service for AOSC developers and contributors.
+-
+  srvtype: Public Clipboard
+  link: https://pastebin.aosc.io
+  description:
+    - >
+      Our public clipboard service (or pastebin) that you can use for all your
+      clippy needs.
