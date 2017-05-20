@@ -69,10 +69,12 @@
   longdesc:
   rurl:
 -
-  fullname:
+  fullname: Ma Kai
   username: ekd123
-  description:
-  longdesc:
+  description: One of the daily AOSC OS users
+  longdesc: >
+    Major in computer science and use AOSC OS every day.
+    Sometimes do some package work for AOSC.
   rurl:
 -
   fullname: Jiaxun Yang
