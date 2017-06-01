@@ -7,7 +7,7 @@ mirrors:
       url: https://mirrors.cqupt.edu.cn/anthon/
       region: China
     - name: Geek Pie Association @ ShanghaiTech University
-      url: https://mirrors-wan.geekpie.org/aosc/
+      url: https://mirrors-wan.geekpie.org/anthon/
       region: China
     - name: LZUOSS 兰州大学
       url: https://mirror.lzu.edu.cn/anthon/
