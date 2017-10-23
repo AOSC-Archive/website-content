@@ -31,5 +31,5 @@ mirrors:
       url: http://mirror.koddos.net/anthon/
       region: Europe
     - name: Fastly CDN
-      url: http://cdn.mirror.anthonos.org/
+      url: https://aosc-repo.freetls.fastly.net/
       region: Worldwide
