@@ -28,7 +28,7 @@ mirrors:
       url: https://ftp.nluug.nl/os/Linux/distr/anthon/
       region: Europe
     - name: KoDDoS
-      url: http://mirror.koddos.net/anthon/
+      url: https://mirror.koddos.net/anthon/
       region: Europe
     - name: Fastly CDN
       url: https://aosc-repo.freetls.fastly.net/
