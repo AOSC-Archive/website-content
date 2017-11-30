@@ -12,6 +12,9 @@ mirrors:
     - name: LZUOSS 兰州大学
       url: https://mirror.lzu.edu.cn/anthon/
       region: China
+    - name: Shanghai University Open Source Community
+      url: https://mirrors.shuosc.org/anthon/
+      region: China
     - name: Tsinghua University (TUNA)
       url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
       region: China
