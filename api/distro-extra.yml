@@ -11,8 +11,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/kde/aosc-os_kde_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/kde/aosc-os_kde_20180128_amd64.tar.xz
     - name: GNOME
       previewDir: /gnome
       downloadTree:
@@ -20,15 +20,15 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/gnome/aosc-os_gnome_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/gnome/aosc-os_gnome_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20160227)
+                  - caption: Download tarball (20170227)
                     url: /os-armel/gnome/aosc-os_gnome_20170227_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
@@ -45,8 +45,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/xfce/aosc-os_xfce_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/xfce/aosc-os_xfce_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
@@ -80,8 +80,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/mate/aosc-os_mate_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/mate/aosc-os_mate_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
@@ -115,8 +115,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/cinnamon/aosc-os_cinnamon_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/cinnamon/aosc-os_cinnamon_20180128_amd64.tar.xz
     - name: LXDE
       previewDir: /lxde
       downloadTree:
@@ -124,8 +124,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/lxde/aosc-os_lxde_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/lxde/aosc-os_lxde_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
@@ -159,8 +159,8 @@ generalDistros:
         cases:
           - caseName: AMD64
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/i3wm/aosc-os_i3wm_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/i3wm/aosc-os_i3wm_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
@@ -195,10 +195,10 @@ generalDistros:
           - caseName: AMD64
             nodeName: ~
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/base/aosc-os_base_20170226_amd64.tar.xz
-              - caption: Download kernel-less tarball (20170226)
-                url: /os-amd64/container/aosc-os_container_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/base/aosc-os_base_20180128_amd64.tar.xz
+              - caption: Download kernel-less tarball (20180128)
+                url: /os-amd64/container/aosc-os_container_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: SoC
             cases:
@@ -363,8 +363,8 @@ generalDistros:
           - caseName: AMD64
             nodeName: ~
             list:
-              - caption: Download tarball (20170226)
-                url: /os-amd64/buildkit/aosc-os-buildkit_20170226_amd64.tar.xz
+              - caption: Download tarball (20180128)
+                url: /os-amd64/buildkit/aosc-os-buildkit_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: ~
             list:
