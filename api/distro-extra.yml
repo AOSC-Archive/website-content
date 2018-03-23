@@ -364,7 +364,7 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20180128)
-                url: /os-amd64/buildkit/aosc-os-buildkit_20180128_amd64.tar.xz
+                url: /os-amd64/buildkit/aosc-os_buildkit_20180128_amd64.tar.xz
           - caseName: ARMv7
             nodeName: ~
             list:
