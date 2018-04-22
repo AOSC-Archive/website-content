@@ -267,8 +267,8 @@ generalDistros:
                       - caseName: Orange Pi One
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-one_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20171018)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-one_sunxi-base_2017-10-18.img.xz
                       - caseName: Orange Pi Plus
                         nodeName: ~
                         list:
