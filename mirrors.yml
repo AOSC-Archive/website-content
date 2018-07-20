@@ -24,6 +24,9 @@ mirrors:
     - name: Yun-idc
       url: http://mirrors.yun-idc.com/anthon/
       region: China
+    - name: xTom
+      url: https://mirror.xtom.com.hk/anthon/
+      region: Hong Kong
     - name: University of Tsukuba
       url: http://ftp.tsukuba.wide.ad.jp/Linux/anthon/
       region: Japan
