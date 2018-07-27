@@ -36,6 +36,9 @@ mirrors:
     - name: KoDDoS
       url: https://mirror.koddos.net/anthon/
       region: Europe
+    - name: KoDDoS HK
+      url: https://mirror-hk.koddos.net/anthon/
+      region: Hong Kong
     - name: Fastly CDN
       url: https://aosc-repo.freetls.fastly.net/
       region: Worldwide
