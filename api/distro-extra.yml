@@ -67,12 +67,12 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/xfce/aosc-os_xfce_20170227_powerpc.tar.xz
+                url: /os-powerpc/xfce/aosc-os_xfce_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/xfce/aosc-os_xfce_20170227_ppc64.tar.xz
+                url: /os-ppc64/xfce/aosc-os_xfce_20181006_ppc64.tar.xz
     - name: MATE
       previewDir: /mate
       downloadTree:
@@ -102,12 +102,12 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/mate/aosc-os_mate_20170227_powerpc.tar.xz
+                url: /os-powerpc/mate/aosc-os_mate_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/mate/aosc-os_mate_20170227_ppc64.tar.xz
+                url: /os-ppc64/mate/aosc-os_mate_20181006_ppc64.tar.xz
     - name: Cinnamon
       previewDir: /cinnamon
       downloadTree:
@@ -146,12 +146,12 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/lxde/aosc-os_lxde_20170227_powerpc.tar.xz
+                url: /os-powerpc/lxde/aosc-os_lxde_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/lxde/aosc-os_lxde_20170227_ppc64.tar.xz
+                url: /os-ppc64/lxde/aosc-os_lxde_20181006_ppc64.tar.xz
     - name: i3wm
       previewDir: /i3wm
       downloadTree:
@@ -181,12 +181,12 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/i3wm/aosc-os_i3wm_20170227_powerpc.tar.xz
+                url: /os-powerpc/i3wm/aosc-os_i3wm_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/i3wm/aosc-os_i3wm_20170227_ppc64.tar.xz
+                url: /os-ppc64/i3wm/aosc-os_i3wm_20181006_ppc64.tar.xz
     - name: Base
       previewDir: /base
       downloadTree:
@@ -345,16 +345,16 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/base/aosc-os_base_20170227_powerpc.tar.xz
+                url: /os-powerpc/base/aosc-os_base_20181006_powerpc.tar.xz
               - caption: Download kernel-less tarball (20170227)
-                url: /os-powerpc/container/aosc-os_container_20170227_powerpc.tar.xz
+                url: /os-powerpc/container/aosc-os_container_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/base/aosc-os_base_20170227_ppc64.tar.xz
+                url: /os-ppc64/base/aosc-os_base_20181006_ppc64.tar.xz
               - caption: Download kernel-less tarball (20170227)
-                url: /os-ppc64/container/aosc-os_container_20170227_ppc64.tar.xz
+                url: /os-ppc64/container/aosc-os_container_20181006_ppc64.tar.xz
     - name: BuildKit
       previewDir: /buildkit
       downloadTree:
@@ -384,12 +384,12 @@ generalDistros:
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-powerpc/buildkit/aosc-os-buildkit_20170227_powerpc.tar.xz
+                url: /os-powerpc/buildkit/aosc-os-buildkit_20181006_powerpc.tar.xz
           - caseName: PowerPC 64-bit (BE)
             nodeName: ~
             list:
               - caption: Download tarball (20170227)
-                url: /os-ppc64/buildkit/aosc-os-buildkit_20170227_ppc64.tar.xz
+                url: /os-ppc64/buildkit/aosc-os-buildkit_20181006_ppc64.tar.xz
 dockers:
 
 buildkits:
