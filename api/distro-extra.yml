@@ -130,6 +130,29 @@ generalDistros:
                 list:
                   - caption: Download tarball (20181010)
                     url: /os-arm64/mate/aosc-os_mate_20181010_arm64.tar.xz
+              - caseName: Allwinner
+                nodeName: Manufacturer
+                cases:
+                  - caseName: PINE64
+                    nodeName: Device
+                    cases:
+                      - caseName: Pinebook
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20181016)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pinebook_sunxi64-mate_2018-10-16.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pinebook_sunxi64-mate_2018-10-16_mmc2.img.xz
+                  - caseName: Olimex
+                    nodeName: Device
+                    cases:
+                      - caseName: TERES-I
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20181016)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-teres-i_sunxi64-mate_2018-10-16.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-teres-i_sunxi64-mate_2018-10-16_mmc2.img.xz
           - caseName: PowerPC 32-bit (BE)
             nodeName: ~
             list:
@@ -375,39 +398,70 @@ generalDistros:
                       - caseName: Nano Pi NEO2
                         nodeName: ~
                         list:
-                          - caption: Download image (20170707)
-                            url: /os-arm64/sunxi/rawimage/sun50i-h5-nanopi-neo2_sunxi64-base_2017-07-07.img.xz
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-h5-nanopi-neo2_sunxi64-base_2018-09-24.img.xz
+                  - caseName: Olimex
+                    nodeName: Device
+                    cases:
+                      - caseName: TERES-I
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-teres-i_sunxi64-base_2018-09-24.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-teres-i_sunxi64-base_2018-09-24_mmc2.img.xz
                   - caseName: PINE64
                     nodeName: Device
                     cases:
-                      - caseName: Pine64+
+                      - caseName: Pinebook
                         nodeName: ~
                         list:
-                          - caption: Download image (20170707)
-                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pine64-plus_sunxi64-base_2017-07-07.img.xz
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pinebook_sunxi64-base_2018-09-24.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pinebook_sunxi64-base_2018-09-24_mmc2.img.xz
+                      - caseName: Pine A64+
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20180923)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pine64-plus_sunxi64-base_20180923.img.xz
+                      - caseName: Pine H64
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20181026)
+                            url: /os-arm64/sunxi/rawimage/sun50i-h6-pine-h64_sunxi64-base_2018-10-26.img.xz
+                          - caption: Download eMMC image (20181026)
+                            url: /os-arm64/sunxi/rawimage/sun50i-h6-pine-h64_sunxi64-base_2018-10-26_mmc2.img.xz
+                      - caseName: Sopine A64
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-sopine-baseboard_sunxi64-base_2018-09-24.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-sopine-baseboard_sunxi64-base_2018-09-24_mmc2.img.xz
                   - caseName: Sinovoip
                     nodeName: Device
                     cases:
                       - caseName: BananaPi M64
                         nodeName: ~
                         list:
-                          - caption: Download image (20170707)
-                            url: /os-arm64/sunxi/rawimage/sun50i-a64-bananapi-m64_sunxi64-base_2017-07-07.img.xz
-                          - caption: Download eMMC image (20170708)
-                            url: /os-arm64/sunxi/rawimage/sun50i-a64-bananapi-m64_sunxi64-base_2017-07-07_mmc2.img.xz
+                          - caption: Download image (20180923)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-bananapi-m64_sunxi64-base_2018-09-23.img.xz
+                          - caption: Download eMMC image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-bananapi-m64_sunxi64-base_2018-09-24_mmc2.img.xz
                   - caseName: Xunlong
                     nodeName: Device
                     cases:
                       - caseName: Orange Pi PC2
                         nodeName: ~
                         list:
-                          - caption: Download image (20170707)
-                            url: /os-arm64/sunxi/rawimage/sun50i-h5-orangepi-pc2_sunxi64-base_2017-07-07.img.xz
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-h5-orangepi-pc2_sunxi64-base_2018-09-24.img.xz
                       - caseName: Orange Pi Prime
                         nodeName: ~
                         list:
-                          - caption: Download image (20170707)
-                            url: /os-arm64/sunxi/rawimage/sun50i-h5-orangepi-prime_sunxi64-base_2017-07-07.img.xz
+                          - caption: Download image (20180924)
+                            url: /os-arm64/sunxi/rawimage/sun50i-h5-orangepi-prime_sunxi64-base_2018-09-24.img.xz
           - caseName: MIPS32
             nodeName: Device
             cases:
