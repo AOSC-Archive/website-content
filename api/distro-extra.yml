@@ -325,7 +325,7 @@ generalDistros:
                   - caseName: Libre Computer
                     nodeName: Device
                     cases:
-                      - caseName: LibreComputer ALL-H3-CC
+                      - caseName: ALL-H3-CC (H3 ver.)
                         nodeName: ~
                         list:
                           - caption: Download image (20181026)
