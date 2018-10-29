@@ -13,10 +13,22 @@ generalDistros:
             list:
               - caption: Download tarball (20181001)
                 url: /os-amd64/kde/aosc-os_kde_20181001_amd64.tar.xz
+          - caseName: ARMv7
+            nodeName: SoC
+            cases:
+              - caseName: Generic
+                nodeName: ~
+                list:
+                  - caption: Download tarball (20181012)
+                    url: /os-armel/kde/aosc-os_kde_20181012_armel.tar.xz
           - caseName: ARMv8
-            list:
-              - caption: Download tarball (20181011)
-                url: /os-arm64/kde/aosc-os_kde_20181011_arm64.tar.xz
+            nodeName: SoC
+            cases:
+              - caseName: Generic
+                nodeName: ~
+                list:
+                  - caption: Download tarball (20181011)
+                    url: /os-arm64/kde/aosc-os_kde_20181011_arm64.tar.xz
           - caseName: PowerPC 32-bit (BE)
             list:
               - caption: Download tarball (20181007)
@@ -40,8 +52,8 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/gnome/aosc-os_gnome_20170227_armel.tar.xz
+                  - caption: Download tarball (20181012)
+                    url: /os-armel/gnome/aosc-os_gnome_20181012_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
@@ -50,6 +62,14 @@ generalDistros:
                 list:
                   - caption: Download tarball (20181010)
                     url: /os-arm64/gnome/aosc-os_gnome_20181010_arm64.tar.xz
+          - caseName: PowerPC 32-bit (BE)
+            list:
+              - caption: Download tarball (20181007)
+                url: /os-ppc64/gnome/aosc-os_gnome_20181007_powerpc.tar.xz
+          - caseName: PowerPC 64-bit (BE)
+            list:
+              - caption: Download tarball (20181006)
+                url: /os-ppc64/gnome/aosc-os_gnome_20181006_ppc64.tar.xz
     - name: XFCE
       previewDir: /xfce
       downloadTree:
@@ -65,8 +85,8 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/xfce/aosc-os_xfce_20170227_armel.tar.xz
+                  - caption: Download tarball (20181014)
+                    url: /os-armel/xfce/aosc-os_xfce_20181014_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
@@ -100,8 +120,8 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/mate/aosc-os_mate_20170227_armel.tar.xz
+                  - caption: Download tarball (20181014)
+                    url: /os-armel/mate/aosc-os_mate_20181014_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
@@ -129,6 +149,32 @@ generalDistros:
             list:
               - caption: Download tarball (20181001)
                 url: /os-amd64/cinnamon/aosc-os_cinnamon_20181001_amd64.tar.xz
+          - caseName: ARMv7
+            nodeName: SoC
+            cases:
+              - caseName: Generic
+                nodeName: ~
+                list:
+                  - caption: Download tarball (20181015)
+                    url: /os-armel/cinnamon/aosc-os_cinnamon_20181015_armel.tar.xz
+          - caseName: ARMv8
+            nodeName: SoC
+            cases:
+              - caseName: Generic
+                nodeName: ~
+                list:
+                  - caption: Download tarball (20181010)
+                    url: /os-arm64/cinnamon/aosc-os_cinnamon_20181010_arm64.tar.xz
+          - caseName: PowerPC 32-bit (BE)
+            nodeName: ~
+            list:
+              - caption: Download tarball (20181007)
+                url: /os-powerpc/cinnamon/aosc-os_cinnamon_20181007_powerpc.tar.xz
+          - caseName: PowerPC 64-bit (BE)
+            nodeName: ~
+            list:
+              - caption: Download tarball (20181006)
+                url: /os-ppc64/cinnamon/aosc-os_cinnamon_20181006_ppc64.tar.xz
     - name: LXDE
       previewDir: /lxde
       downloadTree:
@@ -144,8 +190,8 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/lxde/aosc-os_lxde_20170227_armel.tar.xz
+                  - caption: Download tarball (20181016)
+                    url: /os-armel/lxde/aosc-os_lxde_20181016_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
@@ -179,8 +225,8 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/i3wm/aosc-os_i3wm_20170227_armel.tar.xz
+                  - caption: Download tarball (20181016)
+                    url: /os-armel/i3wm/aosc-os_i3wm_20181016_armel.tar.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
@@ -217,10 +263,10 @@ generalDistros:
               - caseName: Generic
                 nodeName: ~
                 list:
-                  - caption: Download tarball (20170227)
-                    url: /os-armel/generic/aosc-os_base_20170227_armel.tar.xz
-                  - caption: Download kernel-less tarball (20170227)
-                    url: /os-armel/container/aosc-os_container_20170227_armel.tar.xz
+                  - caption: Download tarball (20181011)
+                    url: /os-armel/generic/aosc-os_base_20181011_armel.tar.xz
+                  - caption: Download kernel-less tarball (20181011)
+                    url: /os-armel/container/aosc-os_container_20181011_armel.tar.xz
               - caseName: Broadcom
                 nodeName: Device
                 cases:
@@ -380,8 +426,8 @@ generalDistros:
           - caseName: ARMv7
             nodeName: ~
             list:
-              - caption: Download tarball (20170227)
-                url: /os-armel/buildkit/aosc-os-buildkit_20170227_armel.tar.xz
+              - caption: Download tarball (20181011)
+                url: /os-armel/buildkit/aosc-os-buildkit_20181011_armel.tar.xz
           - caseName: ARMv8
             nodeName: ~
             list:
