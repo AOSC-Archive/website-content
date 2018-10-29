@@ -278,67 +278,84 @@ generalDistros:
               - caseName: Allwinner
                 nodeName: Manufacturer
                 cases:
-                  - caseName: Generic
-                    nodeName: ~
-                    list:
-                      - caption: Download tarball (20161213)
-                        url: /os-armel/sunxi/tarballs/aosc-os_base_20161212_sunxi.tar.xz
                   - caseName: CubieTech
                     nodeName: Device
                     cases:
                       - caseName: Cubieboard1
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun4i-a10-cubieboard_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun4i-a10-cubieboard_sunxi-base_2018-10-26.img.xz
                       - caseName: Cubietruck
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun7i-a20-cubietruck_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun7i-a20-cubietruck_sunxi-base_2018-10-26.img.xz
                   - caseName: FriendlyARM
                     nodeName: Device
                     cases:
                       - caseName: NanoPi NEO
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-nanopi-neo_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-nanopi-neo_sunxi-base_2018-10-26.img.xz
+                  - caseName: Libre Computer
+                    nodeName: Device
+                    cases:
+                      - caseName: LibreComputer ALL-H3-CC
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-libretech-all-h3-cc_sunxi-base_2018-10-26.img.xz
+                          - caption: Download eMMC image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-libretech-all-h3-cc_sunxi-base_2018-10-26_mmc2.img.xz
                   - caseName: Sinovoip
                     nodeName: Device
                     cases:
                       - caseName: BananaPi M1+
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun7i-a20-bananapi-m1-plus_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun7i-a20-bananapi-m1-plus_sunxi-base_2018-10-26.img.xz
                       - caseName: BananaPi M2+
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-bananapi-m2-plus_sunxi-base_2017-07-08.img.xz
-                          - caption: Download eMMC image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-bananapi-m2-plus_sunxi-base_2017-07-08_mmc2.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-bananapi-m2-plus_sunxi-base_2018-10-26.img.xz
+                          - caption: Download eMMC image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-bananapi-m2-plus_sunxi-base_2018-10-26_mmc2.img.xz
+                      - caseName: BananaPi M2 Ultra
+                        nodeName: ~
+                        list:
+                          - caption: Download tarball (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-r40-bananapi-m2-ultra_sunxi-base_2018-10-26.img.xz
+                          - caption: Download eMMC tarball (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-r40-bananapi-m2-ultra_sunxi-base_2018-10-26_mmc2.img.xz
+                      - caseName: BananaPi M2 Zero
+                        nodeName: ~
+                        list:
+                          - caption: Download image (20181027)
+                            url: /os-armel/sunxi/rawimage/sun8i-h2-plus-bananapi-m2-zero_sunxi-base_2018-10-27.img.xz
                   - caseName: Xunlong
                     nodeName: Device
                     cases:
                       - caseName: Orange Pi One
                         nodeName: ~
                         list:
-                          - caption: Download image (20171018)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-one_sunxi-base_2017-10-18.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-one_sunxi-base_2018-10-26.img.xz
                       - caseName: Orange Pi Plus
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-plus_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181027)
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-plus_sunxi-base_2018-10-27.img.xz
                           - caption: Download eMMC image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-plus_sunxi-base_2017-07-08_mmc2.img.xz
+                            url: /os-armel/sunxi/rawimage/sun8i-h3-orangepi-plus_sunxi-base_2018-10-27_mmc2.img.xz
                       - caseName: Orange Pi Zero
                         nodeName: ~
                         list:
-                          - caption: Download image (20170708)
-                            url: /os-armel/sunxi/rawimage/sun8i-h2-plus-orangepi-zero_sunxi-base_2017-07-08.img.xz
+                          - caption: Download image (20181026)
+                            url: /os-armel/sunxi/rawimage/sun8i-h2-plus-orangepi-zero_sunxi-base_2018-10-26.img.xz
           - caseName: ARMv8
             nodeName: SoC
             cases:
