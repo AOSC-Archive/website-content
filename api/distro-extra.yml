@@ -287,7 +287,7 @@ generalDistros:
                 nodeName: ~
                 list:
                   - caption: Download tarball (20181011)
-                    url: /os-armel/generic/aosc-os_base_20181011_armel.tar.xz
+                    url: /os-armel/base/aosc-os_base_20181011_armel.tar.xz
                   - caption: Download kernel-less tarball (20181011)
                     url: /os-armel/container/aosc-os_container_20181011_armel.tar.xz
               - caseName: Broadcom
@@ -386,7 +386,7 @@ generalDistros:
                 nodeName: ~
                 list:
                   - caption: Download tarball (20181010)
-                    url: /os-arm64/generic/aosc-os_base_20181010_arm64.tar.xz
+                    url: /os-arm64/base/aosc-os_base_20181010_arm64.tar.xz
                   - caption: Download kernel-less tarball (20181010)
                     url: /os-arm64/container/aosc-os_container_20181010_arm64.tar.xz
               - caseName: Allwinner
@@ -424,7 +424,7 @@ generalDistros:
                         nodeName: ~
                         list:
                           - caption: Download image (20180923)
-                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pine64-plus_sunxi64-base_20180923.img.xz
+                            url: /os-arm64/sunxi/rawimage/sun50i-a64-pine64-plus_sunxi64-base_2018-09-23.img.xz
                       - caseName: Pine H64
                         nodeName: ~
                         list:
