@@ -40,7 +40,7 @@
     Operates part of the AOSC IT infrastructure (on I cannot afford Red Hat subscription).
     A complete list of packages I maintain is on the detail page.
     Also known as: kawasaki_kagami, kawasaki_sakura, kawasaki_rumi, and kawasaki_iori on Freenode.
-  rurl: 
+  rurl:
 -
   fullname: Rongwei Lin
   username: colin4124
@@ -65,6 +65,12 @@
 -
   fullname:
   username: duminhui
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: eatradish
   description:
   longdesc:
   rurl:
@@ -105,6 +111,12 @@
   username: LER0ever
   description: Faithful Listener | Cool-headed Geek | Mind Swimmer | Ever-Loner | THE Software Magician
   longdesc: Long desc is not necessary for a guy like me who lives in the void.
+  rurl:
+-
+  fullname:
+  username: l2dy
+  description:
+  longdesc:
   rurl:
 -
   fullname:
