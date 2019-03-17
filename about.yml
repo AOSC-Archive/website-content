@@ -70,3 +70,7 @@
   sponsor: Pine64
   homepage: https://www.pine64.org/
   gratitude: Device provider for our AOSC OS ARMv7/AArch64 ports.
+-
+  sponsor: CQU-Lanunion
+  homepage: http://mirrors.cqu.edu.cn/
+  gratitude: Mirror for okur repository.
