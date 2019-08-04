@@ -43,13 +43,6 @@ generalDistros:
         device. LXDE is extremely customizable, a perfect choice for those
         looking for a full desktop environment while wanting to keep in control
         of every aspect of their desktop.
-    - name: i3wm
-      description: |
-        i3 is a highly customizable tiling window manager, and our customization
-        reflects just how nimble and modular i3 is. Complimented with Conky
-        system monitor and i3blocks, the desktop is highly informational while
-        keeping a (very) small memory footprint and little to none processor
-        overhead - ideal for your geeky needs and older computers.
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop

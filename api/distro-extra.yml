@@ -233,41 +233,6 @@ generalDistros:
             list:
               - caption: Download tarball (20181006)
                 url: /os-ppc64/lxde/aosc-os_lxde_20181006_ppc64.tar.xz
-    - name: i3wm
-      previewDir: /i3wm
-      downloadTree:
-        nodeName: Architecture
-        cases:
-          - caseName: AMD64
-            list:
-              - caption: Download tarball (20181001)
-                url: /os-amd64/i3wm/aosc-os_i3wm_20181001_amd64.tar.xz
-          - caseName: ARMv7
-            nodeName: SoC
-            cases:
-              - caseName: Generic
-                nodeName: ~
-                list:
-                  - caption: Download tarball (20181016)
-                    url: /os-armel/i3wm/aosc-os_i3wm_20181016_armel.tar.xz
-          - caseName: ARMv8
-            nodeName: SoC
-            cases:
-              - caseName: Generic
-                nodeName: ~
-                list:
-                  - caption: Download tarball (20181010)
-                    url: /os-arm64/i3wm/aosc-os_i3wm_20181010_arm64.tar.xz
-          - caseName: PowerPC 32-bit (BE)
-            nodeName: ~
-            list:
-              - caption: Download tarball (20181007)
-                url: /os-powerpc/i3wm/aosc-os_i3wm_20181007_powerpc.tar.xz
-          - caseName: PowerPC 64-bit (BE)
-            nodeName: ~
-            list:
-              - caption: Download tarball (20181006)
-                url: /os-ppc64/i3wm/aosc-os_i3wm_20181006_ppc64.tar.xz
     - name: Base
       previewDir: /base
       downloadTree:
