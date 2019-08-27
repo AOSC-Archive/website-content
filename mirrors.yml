@@ -1,16 +1,16 @@
 repo:
     url: https://repo.aosc.io/
     name: AOSC Main Repo
-    region: Taiwan
+    region: US
 mirrors:
-    - name: Geek Pie Association @ ShanghaiTech University
-      url: https://mirrors-wan.geekpie.org/anthon/
+    - name: Tencent OSS Mirror
+      url: https://mirrors.cloud.tencent.com/anthon/
       region: China
     - name: LZUOSS 兰州大学
       url: https://mirror.lzu.edu.cn/anthon/
       region: China
-    - name: Shanghai University Open Source Community
-      url: https://mirrors.shu.edu.cn/anthon/
+    - name: Nanjing University
+      url: https://mirrors.nju.edu.cn/anthon/
       region: China
     - name: Tsinghua University (TUNA)
       url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
